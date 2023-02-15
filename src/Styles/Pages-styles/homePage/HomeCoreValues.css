@@ -1,0 +1,13 @@
+.core__values--container{
+    background-color: var(--brand-color);
+    width: 100%;
+    padding: 300px 60px 300px 40px;
+    margin-top: 300px;
+}
+.values__cards--container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,19 @@
+.detailsPost__container{
+    width: 400px;
+    cursor: pointer;
+    display: flex;
+    font-family: var(--paragraph-font);
+    flex-direction: column;
+    gap: 5px;
+}
+.detailsPost__image{
+    width: 100%;
+    cursor: pointer;
+    height: 320px;
+}
+.detailsPost__container>h1{
+    font-size: 22px;
+}
+.detailsPost__image:hover{
+    transform: scale(0.9);
+}

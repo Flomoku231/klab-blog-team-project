@@ -1,0 +1,32 @@
+.SubHeader--container{
+    width: 100%;
+    margin-top: -2px;
+    height: 100px;
+    padding: 10px 40px;
+    background: url(https://elementor1.contempothemes.com/wp-content/uploads/2020/12/b-post-1-1.jpg);
+    background-position: center;
+    position: relative;
+    font-family: var(--paragraph-font);
+    color: var(--white-color);
+    background-repeat: no-repeat;
+}
+.container__overlay{
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.658);
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    height: 100px;
+}
+.SubHeader--container>h1, .SubHeader--container>p{
+    font-size: 25px;
+    z-index: 500 !important;
+    position: absolute;
+    bottom: 52px;
+}
+.SubHeader--container>p{
+    font-size: 20px;
+    bottom: 30px;
+}

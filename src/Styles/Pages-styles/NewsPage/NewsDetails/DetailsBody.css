@@ -1,0 +1,41 @@
+.detailsBody__container{
+    width: 100;
+    padding: 40px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.detailsBody__content{
+    width: 100%;
+    border: 1px solid var(--gray-color);
+    padding: 30px;
+    justify-content: center;
+    line-height: 30px;
+    display: flex;
+    font-family: var(--paragrap-font);
+}
+.detailsBody__network{
+    margin-top: 20px;
+    width: 100%;
+    font-family: var(--paragrap-font);
+}
+.detailsBody__network>h1{
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn{
+    padding: 10px;
+    margin-right: 4px;
+    border-radius: 3px;
+    border: none;
+    font-size: 14px;
+    font-family: var();
+    cursor: pointer;
+    background-color: var(--black-color);
+    color: var(--white-color);
+}
+.btn:hover{
+    background-color: var(--brand-color);
+    font-weight: 600;
+}

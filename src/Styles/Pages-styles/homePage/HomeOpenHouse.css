@@ -1,0 +1,38 @@
+.homeOpenHouse__container{
+    width: 100%;
+    padding: 40px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+}
+.homeOpenHouse__left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 10px;
+    font-family: var(--paragraph-font);
+}
+.homeOpenHouse__left>h1,.homeOpenHouse__left>p{
+    font-size: 22px;
+    color: var(--gray-color);
+    font-weight: 200;
+}
+
+.homeOpenHouse__left>h2{
+    font-size: 40px;
+    color: var(--brand-color);
+    font-weight: 200;
+    letter-spacing: 5px;
+}
+.homeOpenHouse__left>p{
+    font-size: 24px;
+}
+.homeOpenHouse__right{
+    display: flex;
+    gap: 8px;
+    flex-direction: row;
+}

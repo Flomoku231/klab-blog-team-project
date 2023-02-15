@@ -1,0 +1,96 @@
+.dashboardComponent__container{
+    width: 100%;
+    padding: 50px 75px 0px 75px;
+}
+.dasboardComponent__content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.dashboardComponent__header{
+    width: 100%;
+    height: 55px;
+    border-bottom: 1px solid var(--border-color);
+}
+.dashboardComponent__header>h1{
+    font-family: var(--paragraph-font);
+    font-size: 23px;
+    color: var(--brand-color);
+}
+.dasboardComponent__cards,.activities__cards{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5px;
+    width: 100%;
+}
+#active--icon{
+    width: 30px !important;
+    height: 30px;
+}
+
+/* Popup */
+.dashboardComponent__popup{
+    width: 100%;
+    height: 65px;
+    padding: 10px 20px 10px 20px;
+    justify-content: space-between;
+    border-radius: 5px;
+    align-items: center;
+    display: flex;
+    background: var(--gradiant-background);
+}
+.dashboardComponent__popup>h1{
+    font-family: var(--paragraph-font);
+    font-size: 16px;
+    color: var(--white-color);
+}
+.cancelMe{
+    font-family: var(--paragraph-font);
+    font-size: 25px;
+    color: var(--white-color);
+    cursor: pointer;
+}
+
+/* Statistics */
+.dashboardComponent__statistic,.dashboardComponent__activities{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.dashboardComponent__statistic>h1,.dashboardComponent__activities>h1{
+    font-family: var(--paragraph-font);
+    font-size: 25px;
+    color: var(--gray-color);
+    font-weight: 500;
+
+}
+.activities__cards{
+    gap: 8px;
+}
+.dashboardComponent__footer{
+    width: 100%;
+    font-family: var(--paragraph-font);
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid var(--border-color);
+}
+.footer__content{
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    gap: 8px;
+}
+.footer__content>h2{
+    color: var(--gray-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer__content>li{
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--dashboard-blue-color);
+}

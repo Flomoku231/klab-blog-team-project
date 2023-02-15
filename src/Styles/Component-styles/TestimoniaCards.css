@@ -1,0 +1,20 @@
+.testimonialCard__container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: left;
+}
+.testimonialCard__container>p{
+    font-size: 28px;
+    font-weight: 200;
+    color: var(--gray-color);
+}
+.testimonialCard__container>h2{
+    font-size: 20px;
+    color: var(--brand-color);
+}
+.testimonialCard__container>img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}

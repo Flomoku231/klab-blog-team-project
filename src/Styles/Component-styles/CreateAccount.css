@@ -1,0 +1,72 @@
+.CreateAccount--container{
+    position: absolute;
+}
+.createAccount--content{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    animation-delay: 0.2s;
+    animation-duration: 0.6s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    width: 300px;
+    animation-name: TransitionTry;
+    height: 600px;
+    border:1px solid var(--black-color);
+    background-color: var(--white-color);
+    z-index: 1000 !important;
+    top: 0px;
+    left: 0px;
+    padding: 20px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.Cform{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.createAccount__name,.createAccount__email,.createAccount__mobile{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+label{
+    font-size: 16px;
+    color: var(--gray-color);
+    font-weight: 400;
+}
+#create__nameInput,#create__emailInput,#create__fNameInput,#create__lNameInput,#create__mobileInput,#create__PasswordInput,#create__passwordAgainInput{
+    padding: 8px;
+    border: 1px solid var(--gray-color);
+    border-radius: 5px;
+    outline: none;
+    font-size: 18px;
+}
+.createAccount__names,.createAccount__password{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.firstName,.password,.passwordAgain,.lastName,#create__fNameInput,#create__lNameInput,#create__PasswordInput,#create__passwordAgainInput{
+    width: 120px !important;
+}
+.acceptTerms{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    gap: 10px;
+}
+.registration__button{
+    padding: 6px;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--brand-color);
+    font-size: 16px;
+    color: var(--white-color);
+    cursor: pointer;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,20 @@
+.newsDetails__container{
+    width: 100%;
+    height: 100%;
+}
+.relatedPosts__container{
+    width: 100%;
+    padding: 10px 40px 40px 40px;
+    margin-top: 10px;
+}
+.relatedPosts__container>h1{
+    font-family: var(--paragraph-font);
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.relatedPosts__cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}

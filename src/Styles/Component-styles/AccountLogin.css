@@ -1,0 +1,169 @@
+.login__popup--container{
+    position: absolute;
+}
+
+.login__popup--content,.createAccount--content{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    animation-delay: 0.2s;
+    animation-duration: 0.6s;
+    animation-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    width: 300px;
+    animation-name: TransitionTry;
+    height: 600px;
+    border:1px solid var(--black-color);
+    background-color: var(--white-color);
+    z-index: 1000 !important;
+    top: 0px;
+    left: 0px;
+    padding: 20px;
+    right: 0px;
+    bottom: 0px;
+    margin: auto;
+}
+.login__popup--remove{
+    display: none;
+}
+@keyframes TransitionTry{
+    from{
+        transform: translateY(1000px);
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+.login__popup--overlay{
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.911);
+    width: 100%;
+    z-index: 1000;
+    height: 100%;
+    animation-delay: 0.2s;
+    animation-duration: 0.8s;
+    animation-timing-function: ease-out;
+    animation-name: FadeOverlay;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+@keyframes FadeOverlay {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+.login__popup--button,.createAccount--cancelMe{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+.cancel--button{
+    font-family: var(--paragraph-font);
+    font-size: 25px;
+    cursor: pointer;
+    background-color: var(--white-color) !important;
+    border: none;
+    outline: none;
+}
+.login__popup--header,.createAccount__headers{
+    width: 100%;
+    margin-top: -10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.login__popup--header>h1,.createAccount__headers>h1{
+    font-family: var(--paragraph-font);
+    font-size: 30px;
+    font-weight: 400;
+}
+.login__popup--form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 20px;
+}
+.popup__form--name,.popup__form--password{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.popup__form--name>label,.popup__form--password>label{
+    font-family: var(--paragraph-font);
+    font-size: 18px;
+    color: var(--gray-color);
+    font-weight: 400;
+}
+#name__input,#password__input{
+    padding: 10px;
+    border: 1px solid var(--gray-color);
+    font-size: 18px;
+    outline: none;
+    border-radius: 4px;
+}
+.login__submit--btn{
+    padding: 8px;
+    transition-delay: 0.1s;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    font-size: 18px;
+    background-color: var(--black-color);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: var(--white-color);
+    cursor: pointer;
+}
+.login__submit--btn:hover{
+    background-color: var(--brand-color);
+}
+.login__options{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.facebook__login, .google__login{
+    display: flex;
+    font-family: var(--paragraph-font);
+    padding: 5px;
+    border: none;
+    background-color: var(--brand-color);
+    outline: none;
+    border-radius: 5px;
+    transition-delay: 0.1s;
+    transition-duration: 0.4s;
+    transition-timing-function: ease-in-out;
+    align-items: center;
+    cursor: pointer;
+    text-align: center;
+    gap: 20px;
+    font-weight: 400;
+    color: var(--white-color);
+    justify-content: center;
+    font-size: 18px;
+}
+.google__login{
+    background-color: var(--black-color);
+
+}
+.facebook__login:hover, .google__login:hover{
+    transform: scale(1.1);
+}
+.lostPassword--btn{
+    width: 50%;
+    display: flex;
+    justify-content: left;
+    background-color: var(--white-color);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}

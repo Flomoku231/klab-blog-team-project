@@ -1,0 +1,32 @@
+.HomeExprereinceCards__container{
+    background-color: var(--white-color);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    text-align: center;
+    font-family: var(--paragraph-font);
+    width: 400px;
+    transition-delay: 0.1s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    height: 380px;
+    box-shadow: var(--primary-box-shadow);
+    -webkit-box-shadow: var(--primary-box-shadow);
+    -moz-box-shadow: var(--primary-box-shadow);
+    cursor: pointer;
+}
+.hoverShadow__display{
+    box-shadow: var(--hover-box-shadow);
+    -webkit-box-shadow: var(--hover-box-shadow);
+    -moz-box-shadow: var(--hover-box-shadow);
+}
+.HomeExprereinceCards__container>h1{
+    font-size: 22px;
+    color: var(--brand-color);
+}
+.HomeExprereinceCards__container>p{
+    font-size: 18px;
+    color: var(--gray-color);
+}

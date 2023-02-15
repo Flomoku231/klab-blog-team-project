@@ -1,0 +1,38 @@
+.executive__container{
+    width: 100%;
+
+    
+}
+.executive__header{
+    width: 100%;
+    z-index: -1000;
+    padding: 0px 40px 10px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.executive__header>input{
+    padding: 10px;
+    border-radius: 5px;
+    width: 220px;
+    z-index: -1000;
+    border: 1px solid var(--gray-color);
+    outline: none;
+}
+.search__button,.more__button{
+    padding: 10px;
+    border: none;
+    font-family: var(--paragraph-font);
+    width: 150px;
+    outline: none;
+    font-size: 18px;
+    color: var(--white-color);
+    border-radius: 4px;
+    cursor: pointer;
+}
+.search__button{
+    background-color: var(--brand-color);
+}
+.more__button{
+    background-color: var(--black-color);
+}

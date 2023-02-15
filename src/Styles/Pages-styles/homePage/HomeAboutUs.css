@@ -1,0 +1,32 @@
+.HomeAboutUs__container{
+    width: 100%;
+    padding: 40px;
+    margin-top: 40px;
+    align-items: flex-start;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.HomeAboutUs--left,.HomeAboutUs--right{
+    display: flex;
+    width: 700px;
+    flex-direction: column-reverse;
+    gap: 10px;
+    font-family: var(--paragraph-font);
+}
+.HomeAboutUs--left>h1{
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 40px;
+}
+.HomeAboutUs--left>p,.HomeAboutUs--right>p{
+    font-size: 20px;
+    color: var(--gray-color);
+}
+.HomeAboutUs--right{
+    width: 1000px;
+    gap: 40px;
+}
+.HomeAboutUs--right>a{
+    font-size: 20px;
+}
